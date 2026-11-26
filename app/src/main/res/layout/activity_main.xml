@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="等待操作"/>
+
+    <EditText
+        android:id="@+id/etApiUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="后端API地址，例如 https://xxx.xxx/report"/>
+
+    <EditText
+        android:id="@+id/etDevId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="设备ID S1 / S2 / S3"
+        android:text="S1"/>
+
+    <Button
+        android:id="@+id/btnSyncNtp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="同步NTP"/>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始监听声源"/>
+
+</LinearLayout>
